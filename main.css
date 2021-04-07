@@ -1,0 +1,33 @@
+body{
+  margin:0px;
+}
+a {
+  color:red;
+}
+h3 {
+  font-size: 60px;
+  text-align: center;
+  border-bottom:1px solid red;
+  margin: 0px;
+  padding: 20px;
+}
+ul{
+  border-right: 1px solid gray;
+  margin:0px;
+  padding: 20px;
+  width:90px;
+  }
+  ol{
+   padding:10px;
+  }
+  #a1 {
+    display:grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #a2 {
+    padding:0px;
+    margin-left: 0px;
+    font-size: 20px;
+    display:grid;
+    grid-template-columns: 40px 1fr 1fr 1fr 1fr 1fr;
+  }
